@@ -8,6 +8,8 @@
     --light-grey: rgb(234, 234,235);
     --bright-red: rgb(244,48,48);
     --gray-dark-blue: rgb(51,50,61);
+    --all-black: rgb(0, 0, 0);
+    --active-color: rgb(5, 187, 35);
 
     --border-radius: 2rem;
     --card-border-radius: 1rem;
@@ -45,19 +47,37 @@ body{
     height: auto;
     background-color: var(--white-grey);
 }
-.major-parts {
-
+.contact-container {
+    width: 900px;
+    height: auto;
+    background-color: var(--white-grey);
 }
 .major-parts .topper {
     position: fixed;
     top: 0;
     width: 1200px;
-    background-color: var(--dark-blue);
+    background-color: var(--white-grey);
     height: 70px;
     display: flex;
     justify-content: space-between;
     padding: 10px 40px;
     align-items: center;
+}
+.major-parts .Ctopper {
+    position: fixed;
+    top: 0;
+    width: 900px;
+    background-color: var(--white-grey);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+}
+.Ctopper #follow-ups {
+    display: flex;
+    gap: 60px;
+    font: 700;
 }
 .topper #follow-ups {
     display: flex;
@@ -65,7 +85,14 @@ body{
     font: 700;
 }
 #follow-ups span{
-    color: var(--white-grey);
+    color: var(--all-black);
+    cursor: pointer;
+}
+#follow-ups span a {
+    color: var(--all-black);
+}
+#follow-ups span a:hover {
+    color: var(--active-color);
 }
 /*----- Image and About------*/
 .centered{
@@ -89,9 +116,7 @@ body{
     margin: 30px 0 10px 0;
     font-family:'Times New Roman', Times, serif;
 }
-#about-self span {
 
-}
 .about-me{
     margin: 30px 0 0 40px;
 }
@@ -100,6 +125,7 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
     width: 500px;
+    margin-bottom: 80px;
 }
 .top-btn {
     display: flex;
@@ -184,3 +210,38 @@ body{
    width: 61px;
    height: 32px;
 }
+
+/*-------- {PortFolio Page index-------*/
+.items1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 130px 40px 70px 40px;
+    gap: 60px;
+}
+.details {
+    border-top: 1px solid rgb(39, 39, 39);
+    border-bottom: 1px solid rgb(75, 74, 74);
+    /*background-color: red;*/
+    width: 555px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.details button {
+    margin-bottom: 50px;
+}
+.details h3 {
+    margin: 40px 0 30px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+.items2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 40px;
+    gap: 60px;
+}
+
+.center 
