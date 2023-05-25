@@ -68,11 +68,13 @@ body{
     top: 0;
     width: 900px;
     background-color: var(--white-grey);
-    height: 70px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     padding: 10px 40px;
     align-items: center;
+    border-left: 2px solid var(--dark-blue);
+    border-right: 2px solid var(--dark-blue);
 }
 .Ctopper #follow-ups {
     display: flex;
@@ -87,6 +89,7 @@ body{
 #follow-ups span{
     color: var(--all-black);
     cursor: pointer;
+    font-size: 18px;
 }
 #follow-ups span a {
     color: var(--all-black);
@@ -243,5 +246,165 @@ body{
     margin: 40px 40px;
     gap: 60px;
 }
+/*------- Conatact Page--------*/
+.center {
+    border-top: 1px solid black;;
+    margin: 120px 40px  20px 40px;
+}
 
-.center 
+.center h2 {
+    margin: 20px 0 ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+.center .right .text {
+    font-size: 18px;
+    line-height: 40px;
+}
+#following {
+    margin: 30px 0 ;
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#following img {
+    cursor: pointer;
+}
+.righter {
+    border-top: 1px solid rgb(59, 58, 58);
+    margin: 40px;
+}
+.righter h2{
+    margin: 30px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.righter form {
+    display: flex;
+    flex-direction: column;
+}
+.righter form span {
+    font-size: 22px;
+    margin: 40px 0 15px 0;
+    font-weight: 600;
+}
+.righter form input {
+    height: 60px;
+    background-color: var(--light-grey);
+    padding-left: 20px;
+    font-size: 18px;
+}
+.righter form textarea {
+    height: 200px;
+    background-color: var(--light-grey);
+    padding: 20px;
+    font-size: 18px;
+    resize: none;
+}
+.righter button {
+    margin: 30px 0 100px 0;
+    width: 170px;
+    height: 60px;
+    background-color: var(--dark-blue);
+    color: var(--light-grey);
+    font-weight: 500;
+}
+.righter button:hover {
+    margin: 30px 0;
+    width: 170px;
+    height: 60px;
+    background-color: var(--white-grey);
+    color: var(--dark-blue);
+    font-weight: 800;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+/*--------- Details of Details--------*/
+.top-img-display img{
+    margin: 120px 30px 20px 90px;
+    height: 450px;
+    width: 1000px;
+}
+.centerholder {
+    display: flex;
+    flex-direction: row;
+}
+.centerholder .left-holder {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 40px 20px 0 90px;
+    width: 550px;
+    height: 450px;
+}
+.left-holder #span {
+    margin-bottom: 100px;
+    
+}
+.left-holder h2 {
+    margin: 50px 0 20px 0;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.left-holder h4 {
+    margin-top: 20px;
+    color: green;
+    gap: 40px;
+}
+.left-holder h3 {
+    color: green;
+    gap: 40px;
+}
+.enclosing {
+    width: 600px;
+    margin: 20px 80px 20px 20px;
+}
+.enclosing .project-about {
+    margin-top: 40px;
+}
+.project-about span {
+    
+}
+.project-about h2 {
+    margin-bottom: 20px;
+}
+.static-view h3 {
+    color: var(--dark-blue);
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+.img-displays img {
+    margin-top: 20px;
+    width: 600px;
+}
+.diagonals {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 60px 0 60px;
+    border-top: 1px solid var(--dark-blue);
+    border-bottom: 1px solid var(--dark-blue);
+}
+.diagonals h3 {
+    color: var(--dark-blue);
+}
+.diagonals #left {
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    border-right: 1px solid var(--dark-blue);
+    width: 50%;
+    
+}
+.diagonals #right {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+}
